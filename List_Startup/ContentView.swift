@@ -1,24 +1,29 @@
-//
-//  ContentView.swift
-//  List_Startup
-//
-//  Created by Kazi Rahman on 2023-12-09.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                NavigationLink(destination: TodoDetailView(todo: "Item 1")) {
+                    Text("List Title 1")
+                }
+                NavigationLink(destination: TodoDetailView(todo: "Item 2")) {
+                    Text("List Title 2")
+                }
+                NavigationLink(destination: TodoDetailView(todo: "Item 3")) {
+                    Text("List Title 3")
+                }
+                // ... more items as needed
+            }
+            .navigationBarTitle("Items")
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

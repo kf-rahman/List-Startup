@@ -14,6 +14,7 @@
 		7BEAEF962B256D4A005B28BB /* List_StartupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEAEF952B256D4A005B28BB /* List_StartupTests.swift */; };
 		7BEAEFA02B256D4A005B28BB /* List_StartupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEAEF9F2B256D4A005B28BB /* List_StartupUITests.swift */; };
 		7BEAEFA22B256D4A005B28BB /* List_StartupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEAEFA12B256D4A005B28BB /* List_StartupUITestsLaunchTests.swift */; };
+		7BEAEFAF2B2576B2005B28BB /* TodoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEAEFAE2B2576B2005B28BB /* TodoDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7BEAEF9B2B256D4A005B28BB /* List_StartupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = List_StartupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEAEF9F2B256D4A005B28BB /* List_StartupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_StartupUITests.swift; sourceTree = "<group>"; };
 		7BEAEFA12B256D4A005B28BB /* List_StartupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_StartupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BEAEFAE2B2576B2005B28BB /* TodoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				7BEAEF842B256D46005B28BB /* List_StartupApp.swift */,
+				7BEAEFAE2B2576B2005B28BB /* TodoDetails.swift */,
 				7BEAEF862B256D46005B28BB /* ContentView.swift */,
 				7BEAEF882B256D49005B28BB /* Assets.xcassets */,
 				7BEAEF8A2B256D49005B28BB /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				7BEAEF872B256D46005B28BB /* ContentView.swift in Sources */,
 				7BEAEF852B256D46005B28BB /* List_StartupApp.swift in Sources */,
+				7BEAEFAF2B2576B2005B28BB /* TodoDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
